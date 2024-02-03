@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+.layout-wrapper {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-ninety {
+  height: 90vh;
+}
+
+.section-hero {
+  border: 1px solid red;
+}
+
+.section-project {
+  border: 1px solid red;
+}
+
+.section-about {
+  border: 1px solid red;
+}
+
+.section-contact {
+  border: 1px solid red;
+}
